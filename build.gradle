@@ -1,9 +1,9 @@
-defaultTasks 'hello', 'upper'
+defaultTasks 'hello'
 
 task hello {
 
     doLast {
-        println 'tutorialspoint'
+        println 'What\'s uppp!'
     }
 }
 
