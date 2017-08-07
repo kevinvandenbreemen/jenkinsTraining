@@ -1,5 +1,13 @@
+defaultTasks 'hello', 'upper'
+
 task hello {
+
     doLast {
         println 'tutorialspoint'
     }
 }
+
+task upper << {
+    String expString = 'TUTORIALS point'
+    println "Original: " + expString
+    println "Upper case: " + expString.toUpperCase()}
