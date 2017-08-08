@@ -2,10 +2,24 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.11'
+}
+
 sourceSets {
     main{
         java{
             srcDir  'src/java'
+        }
+    }
+
+    test{
+        java{
+            srcDir 'src/test'
         }
     }
 }
