@@ -6,8 +6,3 @@ task hello {
         println 'What\'s uppp!'
     }
 }
-
-task upper << {
-    String expString = 'TUTORIALS point'
-    println "Original: " + expString
-    println "Upper case: " + expString.toUpperCase()}
