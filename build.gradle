@@ -27,6 +27,7 @@ sourceSets {
 
 test{
     useTestNG(){
+        useDefaultListeners = true
         suites 'testresource/testng.xml'
     }
 }
