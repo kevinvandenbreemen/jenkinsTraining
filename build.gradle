@@ -18,9 +18,16 @@ sourceSets {
     }
 
     test{
+
         java{
             srcDir 'src/test'
         }
+    }
+}
+
+test{
+    useTestNG(){
+        suites 'testresource/testng.xml'
     }
 }
 
