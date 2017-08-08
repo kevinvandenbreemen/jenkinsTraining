@@ -8,6 +8,8 @@ repositories {
 
 dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.11'
+    compile group: 'com.sparkjava', name: 'spark-core', version: '2.6.0'
+
 }
 
 sourceSets {

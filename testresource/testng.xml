@@ -4,7 +4,7 @@
     <test name="Demonstrate Automatically Initiated Unit Testing Works">
         <classes>
             <class name="JunitSanity" />
-
+            <class name="com.vandenbreemen.ws.SimpleSparkTest" />
         </classes>
     </test>
 
